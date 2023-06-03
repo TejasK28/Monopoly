@@ -1,7 +1,7 @@
 public class GameBoard
 {
 
-    public static char [][] gameBoard = 
+    public static Spaces [][] gameBoard = 
     {
         {},
         {},
