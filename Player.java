@@ -7,6 +7,9 @@ public class Player
     Deck<Chance> chance_deck;
     Deck<CommunityChest> communinty_chest_deck;
     Property property;
+
+
+    
     
     
     

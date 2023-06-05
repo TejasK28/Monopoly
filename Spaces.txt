@@ -1,0 +1,24 @@
+GO | Start your journey here! | None
+Mediterranean Avenue | A cheap property in a good location. | Brown
+Baltic Avenue | Another cheap property in a good location. | Brown
+Income Tax | Pay Uncle Sam a visit. | None
+Reading Railroad | A railroad that can help you get around the board quickly. | None
+Oriental Avenue | A medium-priced property in a good location. | Light Blue
+Chance | Chance! You could win or lose money. | Chance
+Vermont Avenue | Another medium-priced property in a good location. | Light Blue
+Connecticut Avenue | A medium-priced property in a good location. | Light Blue
+Jail | Go directly to jail. Do not pass Go. Do not collect $200. | None
+Just Visiting | You can't be here long. | None
+Free Parking | Collect $200 for parking your car. | None
+States Avenue | A high-priced property in a good location. | Dark Blue
+Tennessee Avenue | Another high-priced property in a good location. | Dark Blue
+St. Charles Place | A high-priced property in a good location. | Dark Blue
+Electric Company | An utility that can generate income for you. | None
+North Carolina Avenue | A high-priced property in a good location. | Dark Blue
+Community Chest | Community Chest! You could win or lose money. | Community Chest
+Pennsylvania Avenue | A very high-priced property in a good location. | Orange
+Short Line | A railroad that can help you get around the board quickly. | None
+Chance | Chance! You could win or lose money. | Chance
+Park Place | A very high-priced property in a good location. | Orange
+Luxury Tax | Pay Uncle Sam a visit. | None
+Boardwalk | The most expensive property in the game. | Purple
