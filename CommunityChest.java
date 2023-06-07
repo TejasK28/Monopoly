@@ -1,4 +1,4 @@
-public class CommunityChest
+public class CommunityChest extends Card
 {
 
     

@@ -4,9 +4,21 @@ public class Deck <T>
 {
     // Instance variable of Deck<T>
     T [] stack;
-
+    
+    // Default constructor
+    public Deck()
+    {
+        this.stack = null;
+    }
+    
     //Constructor of Deck class for generic type <T>
     public Deck(T [] stack)
+    {
+        this.stack = stack;
+    }
+
+    //adds card to the stack
+    public void addDeck(T [] stack)
     {
         this.stack = stack;
     }
@@ -27,7 +39,5 @@ public class Deck <T>
             }
             return true;
     }
-
     
-    
-}
+} // end of class

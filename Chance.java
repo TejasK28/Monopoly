@@ -1,4 +1,4 @@
-public class Chance
+public class Chance extends Card
 {
     
 }

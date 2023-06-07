@@ -1,7 +1,7 @@
 public class Rules 
 {
 
-    public static canBuyProperty(Space firstSpace, Space secondSpace)
+    public static canBuyProperty(Space spaceToBuy)
     {
         return 
     }
