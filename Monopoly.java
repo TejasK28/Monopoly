@@ -13,7 +13,7 @@ public class Monopoly
     GameBoard gameBoard = new GameBoard();
 
     /*
-     * instance variable of player_1
+     * instance array variable  of players
      * arguments are
      * 1. name
      * 2. bank reference
@@ -23,9 +23,27 @@ public class Monopoly
      * 6. current space
      */
 
-    Player player_1 = new Player();
+    Player [] players;
+    
+    //Rules instance
+    Rules rules;
 
-    Card card = new Chance();
+
+    /*
+     * Constructor for monopoly
+     * takes in
+     *  # of players
+     * 
+     * intializes all other instance variables
+     */
+    public Monopoly(Player... players)
+    {
+        this.players = players;
+
+
+    }
+
+    public 
 
     
 }
