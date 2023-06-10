@@ -22,6 +22,20 @@ public class Player
 
 
 
+
+
+
+    /*
+     * Method
+     * Parameters: property to buy
+     * Returns: true if property is succesfully acquired
+     */
+    public boolean buy(Space property)
+    {
+    }
+
+
+
     
 
     
