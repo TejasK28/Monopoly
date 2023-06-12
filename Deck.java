@@ -12,9 +12,11 @@ public class Deck <T>
     }
     
     //Constructor of Deck class for generic type <T>
+    //Instantiates the stack array and shuffles 13 times
     public Deck(T [] stack)
     {
-        this.stack = stack;
+       this.stack = stack;
+       shuffle(13);
     }
 
     //adds card to the stack
