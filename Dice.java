@@ -5,7 +5,7 @@ public class Dice
     private int firstRoll;
     private int secondRoll;
     private Random random;
-    private int counter;
+    private int number_of_doubles;
 
     public Dice()
     {
