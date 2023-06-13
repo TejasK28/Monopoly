@@ -26,8 +26,7 @@ public class Deck <T>
     }
 
     // shuffles Deck<T>
-    // @returns true when done
-    public boolean shuffle(int numOfShuffles)
+    public void shuffle(int numOfShuffles)
     {
         Random rand = new Random();
         for(int j = 0; j < numOfShuffles; j++)
@@ -39,7 +38,6 @@ public class Deck <T>
                 stack[randInt] = stack[i];
                 stack[i] = temp;
             }
-            return true;
     }
     
 } // end of class

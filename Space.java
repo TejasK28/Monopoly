@@ -4,6 +4,7 @@ public class Space
     String name;
     String description;
     boolean canBuy;
+    Property propertyCard;
 
     //enums
     Color color;
@@ -42,6 +43,12 @@ public class Space
     public Color getColor()
     {
         return this.color;
+    }
+
+    //toString method for each space
+    public String toString()
+    {
+        return this.name;
     }
     
 }

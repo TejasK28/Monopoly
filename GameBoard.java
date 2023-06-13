@@ -11,32 +11,16 @@ public class GameBoard {
 
     public GameBoard(String filename) 
     {
-        this.lines = new ArrayList<String>();
-        this.filename = filename;
-
-        try (BufferedReader br = new BufferedReader(new FileReader(this.filename))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                lines.add(line);
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // TODO: add to gameBoard
-
-        // Print the array elements
-        for (Space line : gameBoard) {
-            System.out.println(line);
-        }
+        
     }
 
-    // to string method
+    // to string method that returns a linear array
     public String toString() {
-        String string = "";
+        String string = "|";
 
-        for (Space s : gameBoard) {
-
+        for (Space s : gameBoard) 
+        {
+            string += " " + s + " |";
         }
 
         return string;

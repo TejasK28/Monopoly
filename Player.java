@@ -2,18 +2,20 @@
 
 public class Player
 {
-    String name;
-    Bank bank;
-    Deck<Chance> chance_deck;
-    Deck<CommunityChest> communinty_chest_deck;
-    Property property_owned;
-    Space currSpace;
+    private String name;
+    private Bank bank;
+    private Deck<Chance> chance_deck;
+    private Deck<CommunityChest> communinty_chest_deck;
+    private Property property_owned;
+    private Space currSpace;
+    private Dice dice;
+    private int number_of_doubles;
 
     /*
      * Constructor for creating a new Player instance
      * Parameters: name, bank reference, community chest reference, chance reference, and current space 
      */
-    public Player(String name, Bank bank, Deck<Chance> chance_deck, Deck<CommunityChest> communinty_chest_deck, Property property_owned, Space currSpace)
+    public Player(String name, Bank bank, Deck<Chance> chance_deck, Deck<CommunityChest> communinty_chest_deck, Property property_owned, Space currSpace, Dice dice)
     {
         this.name = name;
         this.bank = bank;
@@ -22,6 +24,8 @@ public class Player
         this.property_owned = property_owned;
         //this.currSpace should always be on GO
         this.currSpace = currSpace;
+
+        this.dice = dice;
     }
 
     /*
@@ -41,7 +45,7 @@ public class Player
      */
     public boolean auction(Space property)
     {
-
+        return false;
     }
 
     /*
@@ -51,8 +55,32 @@ public class Player
      */
     public boolean goToJail()
     {
+        return false;
+    }
+
+    public Chance drawChanceCard()
+    {
+        return null;
+    }
+
+    public CommunityChest drawCommunityChestCard()
+    {
+        return null;
+    } 
+    
+    /*
+     * Roll Method
+     * Parameters: none
+     * Returns: numeber of the roll
+     */
+    public int roll()
+    {
+        int roll = dice.getRoll();
+        return roll;
 
     }
+
+
 
     
 

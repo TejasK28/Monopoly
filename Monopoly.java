@@ -1,5 +1,4 @@
 // Monopoly class is where the mechanics are defined
-
 public class Monopoly 
 {
     //instance variables of chance cards and community chest cards
@@ -42,8 +41,16 @@ public class Monopoly
 
 
     }
+   
+    /*
+     * Method that starts the game of monopoly
+     * Parameters:none
+     * Returns: nothing
+     */
+    public void startGame()
+    {
 
-    public 
+    }
 
     
 }
