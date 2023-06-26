@@ -78,7 +78,7 @@ public class Player
         int roll = dice.getRoll();
         return roll;
 
-    }
+    }   
 
 
 
