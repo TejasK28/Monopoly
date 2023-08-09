@@ -1,13 +1,15 @@
 import java.util.ArrayList;
+import java.io.*;
+
 
 public class GameBoard {
 
     private ArrayList<String> lines;
-    public String filename;
+    private String filename;
     public static Space[] gameBoard;
-    Deck<CommunityChest> community_chest_card_deck;
-    Deck<Chance> chance_card_deck;
-    Player [] players;
+    private Deck<CommunityChest> community_chest_card_deck;
+    private Deck<Chance> chance_card_deck;
+    private Player [] players;
 
     /*
      * Description: 
@@ -21,7 +23,29 @@ public class GameBoard {
         this.community_chest_card_deck = community;
         this.chance_card_deck = chance;
         this.players = players;
+
+        makeGameBoard();
     }
+
+    /*
+        Description: 
+            This is the method to populate the gameboard conistsed of spaces
+     */
+    public void makeGameBoard()
+    {
+        try (BufferedReader br = new BufferedReader(new FileReader(this.filename))) 
+        {
+        String line;
+        while ((line = br.readLine()) != null) {
+            // Process each line here
+            System.out.println(line); // Or perform any operation on 'line' as needed
+        }
+        } catch (IOException e) 
+        {
+            e.printStackTrace();
+        }
+    }
+
 
     // to string method that returns a linear array
     public String toString() {

@@ -38,8 +38,6 @@ public class Monopoly
     public Monopoly(Player... players)
     {
         this.players = players;
-
-
     }
    
     /*
