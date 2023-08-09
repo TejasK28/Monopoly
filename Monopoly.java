@@ -9,7 +9,7 @@ public class Monopoly
      * instance variable of gameboard
      * configure appropriate filename as argument
      */
-    GameBoard gameBoard = new GameBoard();
+    GameBoard gameBoard;
 
     /*
      * instance array variable  of players
@@ -38,6 +38,7 @@ public class Monopoly
     public Monopoly(Player... players)
     {
         this.players = players;
+        this.gameBoard = new GameBoard("NameOfSpaces.txt", community_chest_deck, chance_deck, players);
     }
    
     /*

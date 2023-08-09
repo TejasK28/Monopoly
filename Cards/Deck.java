@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Deck <T>
+public abstract class Deck <T>
 {
     // Instance variable of Deck<T>
     T [] stack;
@@ -38,6 +38,12 @@ public class Deck <T>
                 stack[randInt] = stack[i];
                 stack[i] = temp;
             }
+    }
+
+    //prints out deck
+    public String toString()
+    {
+        return stack.toString();
     }
     
 } // end of class

@@ -33,12 +33,15 @@ public class GameBoard {
      */
     public void makeGameBoard()
     {
+        int index = 0;
+
         try (BufferedReader br = new BufferedReader(new FileReader(this.filename))) 
         {
         String line;
         while ((line = br.readLine()) != null) {
             // Process each line here
             System.out.println(line); // Or perform any operation on 'line' as needed
+            Space tempSpace = new Space();
         }
         } catch (IOException e) 
         {

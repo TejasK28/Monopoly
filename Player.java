@@ -35,7 +35,7 @@ public class Player
      */
     public boolean buy(Space property)
     {
-
+        return false;
     }
 
     /*
