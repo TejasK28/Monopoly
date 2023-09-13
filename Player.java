@@ -4,9 +4,9 @@ public class Player
 {
     private String name;
     private Bank bank;
-    private Deck<Chance> chance_deck;
-    private Deck<CommunityChest> communinty_chest_deck;
-    private Property property_owned;
+    private Deck<Chance> player_chance_deck;
+    private Deck<CommunityChest> player_communinty_chest_deck;
+    private Property player_property_owned;
     private Space currSpace;
     private Dice dice;
     private int number_of_doubles;
@@ -19,9 +19,9 @@ public class Player
     {
         this.name = name;
         this.bank = bank;
-        this.chance_deck = chance_deck;
-        this.communinty_chest_deck = communinty_chest_deck;
-        this.property_owned = property_owned;
+        this.player_chance_deck = chance_deck;
+        this.player_communinty_chest_deck = communinty_chest_deck;
+        this.player_property_owned = property_owned;
         //this.currSpace should always be on GO
         this.currSpace = currSpace;
 
