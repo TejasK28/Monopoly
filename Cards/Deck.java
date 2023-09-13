@@ -1,6 +1,6 @@
 import java.util.*;
 
-public abstract class Deck <T>
+public class Deck <T>
 {
     // Instance variable of Deck<T>
     T [] stack;
